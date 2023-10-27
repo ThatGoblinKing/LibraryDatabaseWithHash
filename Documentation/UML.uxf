@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>22</x><y>810</y><w>210</w><h>190</h></coordinates><panel_attributes>BookHashManager {readOnly}
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>272</x><y>590</y><w>210</w><h>80</h></coordinates><panel_attributes>LibraryDatabase.
+--
+- stdIn : Scanner()
+- input : String
+--
+_+ Main(args : String[]) : void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2</x><y>560</y><w>210</w><h>190</h></coordinates><panel_attributes>Book
+--
+- title : String
+- author : String
+- genre: String
+- yearPublished : int
+- pageCount : int
+- price : double
+--
+&lt;&lt;Create&gt;&gt; + Book(title : String, author : String, genre : String, yearPublished : int, pageCount : int, price : double
++ toString() : String
++ getProperties() : String
++ getTitle() : String</panel_attributes><additional_attributes></additional_attributes></element></diagram>
